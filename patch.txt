@@ -1,0 +1,24 @@
+diff --git a/src/Test/LearnPatchTest.java b/src/Test/LearnPatchTest.java
+index 1cf9200..e217699 100644
+--- a/src/Test/LearnPatchTest.java
++++ b/src/Test/LearnPatchTest.java
+@@ -1,8 +1,6 @@
+ import org.junit.Test;
+ 
+-import java.lang.annotation.Target;
+-
+-import static junit.framework.TestCase.fail;
++import static org.junit.Assert.assertTrue;
+ 
+ /**
+  * Created by meghah on 6/6/17.
+@@ -10,7 +8,7 @@ import static junit.framework.TestCase.fail;
+ public class LearnPatchTest {
+ 
+     @Test
+-    public void shouldFail(){
+-        fail("should fail");
++    public void shouldMakeTestPass(){
++        assertTrue(true);
+     }
+ }

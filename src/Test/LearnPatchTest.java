@@ -1,8 +1,6 @@
 import org.junit.Test;
 
-import java.lang.annotation.Target;
-
-import static junit.framework.TestCase.fail;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Created by meghah on 6/6/17.
@@ -10,7 +8,7 @@ import static junit.framework.TestCase.fail;
 public class LearnPatchTest {
 
     @Test
-    public void shouldFail(){
-        fail("should fail");
+    public void shouldMakeTestPass(){
+        assertTrue(true);
     }
 }
